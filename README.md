@@ -14,7 +14,7 @@ pip install -r requirements.txt -i https://pypi.douban.com/simple
 python work01/main.py
 ```
 
-![](./work01/images/wi01.png)
+![wi01](./work01/images/wi01.png)
 
 ### 打包成exe
 
@@ -23,4 +23,4 @@ python work01/main.py
 pyinstaller -F work01/main.py
 ```
 
-![](./work01/images/wi02.png)
+![wi02](./work01/images/wi02.png)
