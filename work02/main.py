@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from work02.AipSpeech import Aip
 
 
 class Voice:
@@ -19,7 +20,7 @@ class Voice:
                               sg.Button("开始识别")
                           ],
                           [sg.T("识别结果：")],
-                          [sg.Text(text="111111", size=(50, 5), text_color="black", background_color="white")],
+                          [sg.Text(key='-result-', text="", size=(50, 5), text_color="black", background_color="white")],
                       ],
                       )
         f2 = sg.Frame(title='语音合成',
@@ -39,15 +40,23 @@ if __name__ == "__main__":
     voice = Voice()
     # 初始化主窗口
     window_main = voice.GetMainWindow()
-    express = '0'
-    flag = 0
+    # 创建Aip对象
+    aip = Aip()
 
     while True:
         window, event, value = sg.read_all_windows()
         if window == window_main and event in (None, sg.WIN_CLOSED):
             window.close()
         elif event == '开始识别':
-            print(value)
+            filepath = value["-file-"]
+            format = value["-type-"]
+            resp = aip.asr(filepath=filepath, format=format)
+            result = ''
+            if resp['err_no'] != 0:
+                result = resp['err_msg']
+            else:
+                result = resp['result'][0]
+            window_main['-result-'].update(result)
         elif event == '开始合成':
             print(value)
 

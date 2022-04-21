@@ -4,3 +4,4 @@
 pysimplegui
 pyinstaller
 baidu-aip
+chardet
