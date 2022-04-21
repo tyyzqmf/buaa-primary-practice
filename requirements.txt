@@ -3,3 +3,4 @@
 
 pysimplegui
 pyinstaller
+baidu-aip
