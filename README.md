@@ -41,6 +41,7 @@ python work02/main.py
 ![wi04](./work02/images/wi04.png)
 
 3、语音合成
+
 合成后的文件默认在当前目录下的"audio.mp3"
 
 ### 打包成exe
