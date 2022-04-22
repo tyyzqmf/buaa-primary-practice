@@ -14,6 +14,7 @@ pip install -r requirements.txt -i https://pypi.douban.com/simple
 python work01/main.py
 ```
 
+### 效果
 ![wi01](./work01/images/wi01.png)
 
 ### 打包成exe
@@ -24,3 +25,24 @@ pyinstaller -F work01/main.py
 ```
 
 ![wi02](./work01/images/wi02.png)
+
+## 作业2：语音识别与合成
+
+### 运行
+```
+python work02/main.py
+```
+
+### 效果
+1、先根据百度AI平台的APPID、KEY登陆
+![wi03](./work02/images/wi03.png)
+
+2、语音识别
+![wi04](./work02/images/wi04.png)
+
+3、语音合成
+合成后的文件默认在当前目录下的"audio.mp3"
+
+### 打包成exe
+同作业1
+
