@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from work02.AipSpeech import Aip
+import AipSpeech
 
 
 class Voice:
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # 初始化login窗口
     window_login = voice.GetLoginWindow()
     # 创建Aip对象
-    aip = Aip()
+    aip = AipSpeech.Aip()
 
     while True:
         window, event, value = sg.read_all_windows()
@@ -97,5 +97,4 @@ if __name__ == "__main__":
                     # 登陆失败
                     window_login["-INFO-"].update("认证错误，请校验：APP_ID，API_KEY，SECRET_KEY")
 
-
-
+    window.close()
