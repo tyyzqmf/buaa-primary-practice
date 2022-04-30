@@ -47,3 +47,20 @@ python work02/main.py
 ### 打包成exe
 同作业1
 
+## 作业3：自然语言处理演示
+
+### 运行
+```
+python work03/main.py
+```
+
+### 效果
+1、先根据百度AI平台的APPID、KEY登陆
+![wi03](./work02/images/wi03.png)
+
+2、自然语言处理演示
+![wi04](./work03/images/wi05.png)
+
+### 打包成exe
+同作业1
+
