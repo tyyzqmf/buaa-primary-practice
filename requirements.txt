@@ -5,3 +5,4 @@ pysimplegui
 pyinstaller
 baidu-aip
 chardet
+pillow

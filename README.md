@@ -64,3 +64,17 @@ python work03/main.py
 ### 打包成exe
 同作业1
 
+## 作业4：人脸识别演示
+
+### 运行
+```
+python work04/main.py
+```
+
+### 效果
+人脸识别演示
+![wi06](./work04/images/wi06.png)
+
+### 打包成exe
+同作业1
+
