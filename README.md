@@ -78,3 +78,17 @@ python work04/main.py
 ### 打包成exe
 同作业1
 
+## 作业5：文字识别演示
+
+### 运行
+```
+python work05/main.py
+```
+
+### 效果
+人脸识别演示
+![wi07](./work05/images/wi07.png)
+
+### 打包成exe
+同作业1
+
