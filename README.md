@@ -101,7 +101,7 @@ python work06/main.py
 ```
 
 ### 效果
-人脸识别演示
+图片识别演示
 ![wi08](./work06/images/wi08.png)
 
 ### 打包成exe
