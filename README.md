@@ -92,3 +92,18 @@ python work05/main.py
 ### 打包成exe
 同作业1
 
+
+## 作业6：图片识别演示
+
+### 运行
+```
+python work06/main.py
+```
+
+### 效果
+人脸识别演示
+![wi08](./work06/images/wi08.png)
+
+### 打包成exe
+同作业1
+
