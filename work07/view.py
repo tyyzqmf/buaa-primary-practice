@@ -71,10 +71,10 @@ class View:
     def GetLoginWindow(self, ):
         # 定义布局
         self.login_layout = [
-            [sg.T("APP_ID：", size=(13, 1)), sg.InputText(key='-APP_ID-', default_text="26543735")],
-            [sg.T("API_KEY：", size=(13, 1)), sg.InputText(key='-API_KEY-', default_text="isG9e3IIytIs8qCRTcWnWXSb")],
+            [sg.T("APP_ID：", size=(13, 1)), sg.InputText(key='-APP_ID-', default_text="")],
+            [sg.T("API_KEY：", size=(13, 1)), sg.InputText(key='-API_KEY-', default_text="")],
             [sg.T("SECRET_KEY：", size=(13, 1)),
-             sg.InputText(key='-SECRET_KEY-', default_text="IjF48hMSBy3eQPdZT5iTqGnftu1mURr4")],
+             sg.InputText(key='-SECRET_KEY-', default_text="")],
             [sg.T("", key='-INFO-', text_color="red")],
             [sg.Button("登陆")]
         ]
