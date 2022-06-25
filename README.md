@@ -107,3 +107,17 @@ python work06/main.py
 ### 打包成exe
 同作业1
 
+
+## 作业7：人体分析演示
+
+### 运行
+```
+python work07/main.py
+```
+
+### 效果
+人体分析演示
+![wi09](./work07/images/wi09.png)
+
+### 打包成exe
+同作业1
